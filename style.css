@@ -182,7 +182,7 @@ hr {
 }
 
 .btn-fancy {
-  position: relative;
+  position: absolute;
   top: 10rem;
   background: radial-gradient(circle, #ec0388, #f0572c);
   padding: 0.875rem 0;
