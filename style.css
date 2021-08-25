@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  color: #fff;
+  font-family: PS TT Commons Roman, Gotham SSm A, Gotham SSm B, Arial,
+    sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input[type="button"],
+a,
+.btn {
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+}
+
+.content-left {
+  background-color: #0d0f12;
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./images/bg-gtm-2020.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: right;
+  background-color: #000;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  height: 85%;
+  max-width: 60%;
+}
+
+.main .logo {
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  max-width: 18rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 0.975rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: hsla(0, 0%, 100%, 0.95);
+}
+
+.btn-primary {
+  background-color: #1e74ab;
+  margin-bottom: 3rem;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #1e75abc4;
+}
+
+.btn-secondary {
+  background-color: #2d3137;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(144, 144, 144);
+}
+.btn-link {
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.btn-link a {
+  display: block;
+  color: #1e74ab;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-link {
+  margin-bottom: 1.3rem;
+}
+
+.main input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.main .btn-primary {
+  margin-bottom: 4rem;
+}
+
+hr {
+  display: block;
+  opacity: 0.2;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  border-color: hsla(0, 0%, 100%, 0.95);
+}
+
+.faq {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+  height: 15%;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.7);
+  margin-bottom: 5px;
+}
+
+.footer p a {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.hero-content {
+  margin-left: 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  margin-bottom: 2rem;
+  width: 31rem;
+}
+
+.btn-fancy {
+  background: radial-gradient(#ec0388, #f0572c);
+  padding: 0.875rem 0;
+  font-size: 0.875rem;
+  max-width: 15rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.build-better {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  width: 10rem;
+}
