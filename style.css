@@ -7,8 +7,7 @@
 body {
   width: 100%;
   color: #fff;
-  font-family: PS TT Commons Roman, Gotham SSm A, Gotham SSm B, Arial,
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -37,6 +36,7 @@ a,
 }
 
 .content-right {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -161,20 +161,33 @@ hr {
 
 .hero-content {
   margin-left: 7rem;
+  font-weight: 700;
   display: flex;
   flex-direction: column;
 }
 
+.hero-content h1 {
+  position: absolute;
+  top: 20rem;
+  left: 9.75rem;
+  font-size: 3.265rem;
+}
+
 .hero-img {
+  position: absolute;
+  top: 27rem;
+  left: 7.275rem;
   margin-bottom: 2rem;
-  width: 31rem;
+  width: 10rem;
 }
 
 .btn-fancy {
-  background: radial-gradient(#ec0388, #f0572c);
+  position: relative;
+  top: 10rem;
+  background: radial-gradient(circle, #ec0388, #f0572c);
   padding: 0.875rem 0;
   font-size: 0.875rem;
-  max-width: 15rem;
+  max-width: 16rem;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -184,7 +197,14 @@ hr {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-bottom: 2rem;
-  margin-right: 2rem;
-  width: 10rem;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+  max-width: 10.5rem;
+}
+
+/* mobile */
+@media only screen and (max-width: 1365px) {
+  .container {
+    grid-template-columns: 0.5fr 0.5fr;
+  }
 }
