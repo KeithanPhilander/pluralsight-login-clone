@@ -160,6 +160,7 @@ hr {
 }
 
 .hero-content {
+  position: relative;
   margin-left: 7rem;
   font-weight: 700;
   display: flex;
@@ -168,22 +169,23 @@ hr {
 
 .hero-content h1 {
   position: absolute;
-  top: 20rem;
-  left: 9.75rem;
+  top: -12rem;
+  left: 4rem;
   font-size: 3.265rem;
 }
 
 .hero-img {
   position: absolute;
-  top: 27rem;
-  left: 7.275rem;
+  top: -5rem;
+  left: 1rem;
   margin-bottom: 2rem;
   width: 10rem;
 }
 
 .btn-fancy {
   position: absolute;
-  bottom: 25rem;
+  bottom: -12rem;
+  left: 1rem;
   background: radial-gradient(circle, #ec0388, #f0572c);
   padding: 0.875rem 0;
   font-size: 0.875rem;
