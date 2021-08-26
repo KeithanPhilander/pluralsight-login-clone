@@ -18,7 +18,7 @@ label {
   margin-bottom: 4px;
 }
 
-input[type="button"],
+button,
 a,
 .btn {
   cursor: pointer;
@@ -68,10 +68,20 @@ a,
 }
 
 .btn {
+  padding: 0.7rem 1rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
   font-size: 0.975rem;
   font-weight: 500;
   letter-spacing: 0.01em;
   color: hsla(0, 0%, 100%, 0.95);
+}
+
+.main input {
+  width: 100%;
+  padding: 0.7rem 1rem;
 }
 
 .btn-primary {
@@ -106,14 +116,6 @@ a,
 
 .btn-link {
   margin-bottom: 1.3rem;
-}
-
-.main input {
-  width: 100%;
-  padding: 0.7rem 1rem;
-  margin-bottom: 1.5rem;
-  border: none;
-  border-radius: 3px;
 }
 
 .main .btn-primary {
@@ -253,5 +255,11 @@ hr {
   }
   .content-right {
     display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  .faq {
+    position: fixed;
   }
 }
