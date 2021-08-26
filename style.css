@@ -161,6 +161,7 @@ hr {
 
 .hero-content {
   position: relative;
+  height: auto;
   margin-left: 7rem;
   font-weight: 700;
   display: flex;
@@ -171,7 +172,7 @@ hr {
   position: absolute;
   top: -12rem;
   left: 4rem;
-  font-size: 3.265rem;
+  font-size: 3rem;
 }
 
 .hero-img {
@@ -208,5 +209,49 @@ hr {
 @media only screen and (max-width: 1365px) {
   .container {
     grid-template-columns: 0.5fr 0.5fr;
+  }
+
+  .content-right {
+    background-size: contain;
+    background-position: center;
+  }
+
+  .main {
+    max-width: 80%;
+  }
+
+  .hero-content h1 {
+    font-size: calc(3.5vw + 0.3em);
+  }
+
+  .hero-img {
+    width: 10vw;
+  }
+
+  .btn-fancy {
+    bottom: -16vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-content h1 {
+    left: -2rem;
+  }
+
+  .hero-img {
+    left: -4rem;
+  }
+
+  .btn-fancy {
+    left: -4rem;
+  }
+}
+
+@media only screen and (max-width: 868px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .content-right {
+    display: none;
   }
 }
