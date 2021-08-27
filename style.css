@@ -262,12 +262,6 @@ hr {
   }
 }
 
-@media (orientation: landscape) {
-  .faq {
-    position: fixed;
-  }
-}
-
 @media only screen and (max-height: 700px) {
   .faq {
     position: fixed;
