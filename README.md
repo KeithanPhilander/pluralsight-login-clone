@@ -1,10 +1,10 @@
 # Pluralsight login clone
 
-This project is a clone of the pluralsight login page. It will test your ability to use HTML and CSS to build responsive websites.
+In this project we are tasked with cloning the pluralsight login page. This was assigned to us by our Mentor [Obiagba Mary](https://github.com/Ifycode) in phase 1 of the GADS Scholarship program. This project will test your ability to use HTML and CSS to build responsive websites.
 
 ### Design
 
-![](design/design.png)
+![](design/design5.png)
 
 ### Demo
 
