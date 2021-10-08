@@ -213,11 +213,6 @@ hr {
     grid-template-columns: 0.5fr 0.5fr;
   }
 
-  .content-right {
-    background-size: contain;
-    background-position: center;
-  }
-
   .main {
     max-width: 80%;
   }
